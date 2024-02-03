@@ -16,5 +16,6 @@ If you have a public repo and want to test something with the same content on a 
 
 # Usage
 
-https://github.com/stavares843/sync-public-repo-to-private-repo/assets/29093946/cefb7cd7-711d-4305-840e-381ac979c486
+
+https://github.com/stavares843/sync-public-repo-to-private-repo/assets/29093946/a991ce55-6f4f-4dce-b7b4-4559c37340b0
 
