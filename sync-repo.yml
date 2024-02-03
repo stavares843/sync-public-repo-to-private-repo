@@ -1,0 +1,22 @@
+name: Sync Public Repo to Private Repo
+on:
+  workflow_dispatch:  # Manually trigger the workflow
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Push changes to private repo
+        run: |
+          git remote add public https://github.com/org-name/repo-name
+          git fetch public
+          git checkout -b dev-copy public/dev
+          git config --global user.email "youremail@email.com"
+          git config --global user.name "your name"  
+          git push origin dev-copy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Cleanup
+        run: |
+          git remote remove public
