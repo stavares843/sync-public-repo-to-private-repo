@@ -19,3 +19,6 @@ If you have a public repo and want to test something with the same content on a 
 
 https://github.com/stavares843/sync-public-repo-to-private-repo/assets/29093946/a991ce55-6f4f-4dce-b7b4-4559c37340b0
 
+<p align="center">
+   <a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat" /></a>
+</p>
